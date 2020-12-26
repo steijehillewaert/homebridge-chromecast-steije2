@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-chromecast-steije2",
+  "version": "1.0.0",
+  "description": "chromecast control via homebridge",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "hap-nodejs": "^0.8.3",
+    "mdns": "^2.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js . --ext .js"
+  },
+  "author": "Steije Hillewaert <steije@me.com> (http://www.steije.be)",
+  "license": "ISC"
+}
