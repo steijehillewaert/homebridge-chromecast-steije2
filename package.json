@@ -6,10 +6,15 @@
     "homebridge-plugin"
   ],
   "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0",
+    "homebridge": ">=0.4.0"
+  },
   "dependencies": {
     "castv2-client": "^1.2.0",
     "hap-nodejs": "^0.8.3",
-    "mdns": "^2.7.2"
+    "mdns": "^2.7.2",
+    "pakmanager": "^0.12.1"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
